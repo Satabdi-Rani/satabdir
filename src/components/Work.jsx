@@ -1,6 +1,7 @@
 import React from 'react'
 import workImg from '../assets/workImg.jpeg';
-import realstate from '../assets/realestate.jpg';
+import work1 from '../assets/work1.png';
+import work2 from '../assets/work2.png';
 
 const Work = () => {
   return (
@@ -13,49 +14,26 @@ const Work = () => {
 
             <div 
             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                <div style={{backgroundImage: `url(${workImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${work1})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>React JS</span>
-                        <div className='pt-8 text-center'>
+                        <span className='text-2xl font-bold text-white tracking-wider'><a href="https://sparkteq-satabdi-rani.vercel.app/">Sparkteq</a></span>
+                        {/* <div className='pt-8 text-center'>
                             <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Demo</a>
                             <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Code</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${realstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${work2})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>React JS</span>
-                        <div className='pt-8 text-center'>
+                        <span className='text-2xl font-bold text-white tracking-wider'><a href="https://voluble-treacle-0958ac.netlify.app/">Travel</a></span>
+                        {/* <div className='pt-8 text-center'>
                             <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Demo</a>
                             <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div style={{backgroundImage: `url(${workImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>React JS</span>
-                        <div className='pt-8 text-center'>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Demo</a>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div style={{backgroundImage: `url(${realstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    {/* Hover effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>React JS</span>
-                        <div className='pt-8 text-center'>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Demo</a>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Code</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -71,8 +49,8 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${realstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    {/* Hover effects */}
+                {/* <div style={{backgroundImage: `url(${realstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>React JS</span>
                         <div className='pt-8 text-center'>
@@ -80,12 +58,35 @@ const Work = () => {
                             <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Code</a>
                         </div>
                     </div>
-                </div>
+                </div> */}
+
+                {/* <div style={{backgroundImage: `url(${workImg})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                  
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>React JS</span>
+                        <div className='pt-8 text-center'>
+                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Demo</a>
+                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Code</a>
+                        </div>
+                    </div>
+                </div> */}
+
+                {/* <div style={{backgroundImage: `url(${realstate})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>React JS</span>
+                        <div className='pt-8 text-center'>
+                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Demo</a>
+                            <a href="/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>Code</a>
+                        </div>
+                    </div>
+                </div> */}
 
             </div>
 
         </div>
-    </div>
+    </div> 
   )
 }
 
